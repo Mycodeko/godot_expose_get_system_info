@@ -1,0 +1,5 @@
+source_url = https://www.example.com/software/project
+upstream_name = godot_expose_get_system_info
+upstream_contact_name = Mycodeko
+upstream_contact_email = mycodeko@outlook.com
+thirdparty_folder_path = thirdparty

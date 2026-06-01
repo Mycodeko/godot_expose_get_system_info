@@ -1,0 +1,18 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Source: https://www.example.com/software/project
+Upstream-Name: godot_expose_get_system_info
+Upstream-Contact: Mycodeko <mycodeko@outlook.com>
+
+Files: 
+ thirdparty/godot/*
+Comment: Godot Engine
+Copyright: 2014-present, Godot Engine contributors
+ 2007-2014, Juan Linietsky, Ariel Manzur
+License: Expat
+
+Files: 
+ ./*
+Comment: godot_expose_get_system_info
+Copyright: 2026
+License: MIT
+

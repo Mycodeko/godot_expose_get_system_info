@@ -1,0 +1,32 @@
+[gd_scene load_steps=3 format=3 uid="uid://s7wqll41oxrj"]
+
+[ext_resource type="Script" uid="uid://dvwvjlas22ajb" path="res://gdscript_runner.gd" id="1_ia1lp"]
+[ext_resource type="Script" uid="uid://wjh1cb0wqejn" path="res://CSharpRunner.cs" id="1_uhqqe"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="GDScriptRichTextLabel" type="RichTextLabel" parent="VBoxContainer"]
+layout_mode = 2
+fit_content = true
+script = ExtResource("1_ia1lp")
+
+[node name="CSharpRichTextLabel" type="RichTextLabel" parent="VBoxContainer"]
+layout_mode = 2
+fit_content = true
+script = ExtResource("1_uhqqe")

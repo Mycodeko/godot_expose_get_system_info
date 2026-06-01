@@ -1,0 +1,20 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="GodotExposeGetSystemInfo"
+config/description="Enter an interesting project description here!"
+run/main_scene="uid://s7wqll41oxrj"
+config/features=PackedStringArray("4.4", "C#")
+
+[dotnet]
+
+project/assembly_name="GodotExposeGetSystemInfo"
