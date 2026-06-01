@@ -7,7 +7,7 @@ Exposes the internal method (`EditorNode::_get_system_info()`) used by Godot to 
 2. Extract the `expose_get_system_info` folder in `godot_expose_get_system_info-X.X.X/addons` into `<PROJECT_DIRECTORY>/addons` (should result in `<PROJECT_DIRECTORY>/addons/expose_get_system_info`).
 
 ### C#
-- Call ```csharp SystemInfo.GetSystemInfo()```.
+- Call `csharp SystemInfo.GetSystemInfo()`.
 
 ### GDScript
-- Add ```gdscript const SystemInfo = preload("res://addons/expose_get_system_info/get_system_info.gd")``` to the top of your script's file, then call ```gdscript SystemInfo.get_system_info()```
+- Add `const SystemInfo = preload("res://addons/expose_get_system_info/get_system_info.gd")` to the top of your script's file, then call `SystemInfo.get_system_info()`
